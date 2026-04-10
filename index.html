@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css?v=1.00000000028">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <script src="script.js?v=1.00000000002" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title" id="header-title">Главная</h1>
+        <nav class="header-nav">
+            <a class="nav-el" href="#main">Главная</a>
+            <a class="nav-el" href="#about">Обо мне</a>
+            <a class="nav-el" href="#photo">Фото</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" id="main">
+            <div class="section-main">
+                <h2 class="section-title">Мои соцсети</h2>
+                <img class="section-image" src="/src/img/main.jpg?v=1.0" alt="Моя фотка"/>
+                <p class="section-text"></p>
+                <div class="socials">
+                    <button class="social-btn" onclick="window.open('https://t.me/rob325', '_blank')"><i class="fa-brands fa-telegram"></i><span>rob325</span></button>
+                    <button class="social-btn" onclick="window.open('https://vk.com/robsag', '_blank')"><i class="fa-brands fa-vk"></i><span>robsag</span></button>
+                    <button class="social-btn" onclick="window.open('https://www.instagram.com/robert.sagatelov', '_blank')"><i class="fa-brands fa-instagram"></i><span>robert.sagatelov</span></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-about">
+                <h2 class="section-title">Обо мне</h2>
+                <p class="section-text">Я увлекаюсь 3D-моделированием и 3D-печатью. На данный момент учусь на 2 курсе Гейм-дизайна. В свободное время изучаю разные технологии в мире IT.</p>
+            </div>
+        </section>
+
+        <section class="section" id="photo">
+            <div class="section-photo">
+                <h2 class="section-title">Фото</h2>
+                <p class="section-text">Здесь вы найдете мои фотографии.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Robert Sagatelov. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
