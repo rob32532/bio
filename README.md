@@ -1,2 +1,2 @@
 # bio
-My biography for homework in university
+My website biography for homework in university
