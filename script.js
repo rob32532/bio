@@ -8,7 +8,7 @@ function handleHashChange() {
     const targetId = currentHash.replace('#', '');
 
     const allSections = document.querySelectorAll('.section');
-    allSections.forEach(function(section) {
+    allSections.forEach(function (section) {
         section.classList.remove('active-section');
     });
 
@@ -32,7 +32,7 @@ function handleHashChange() {
         default:
             document.title = 'Главная';
             headerTitle.textContent = 'Главная';
-        }
+    }
 
     if (targetSection) {
         targetSection.classList.add('active-section');

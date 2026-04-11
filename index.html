@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-    <link rel="stylesheet" href="style.css?v=1.00000000028">
+    <link rel="stylesheet" href="style.css?v=1.00000000030">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -29,12 +29,16 @@
         <section class="section" id="main">
             <div class="section-main">
                 <h2 class="section-title">Мои соцсети</h2>
-                <img class="section-image" src="/src/img/main.jpg?v=1.0" alt="Моя фотка"/>
+                <img class="section-main-image" src="/src/img/main.jpg?v=1.0" alt="Моя фотка" />
                 <p class="section-text"></p>
                 <div class="socials">
-                    <button class="social-btn" onclick="window.open('https://t.me/rob325', '_blank')"><i class="fa-brands fa-telegram"></i><span>rob325</span></button>
-                    <button class="social-btn" onclick="window.open('https://vk.com/robsag', '_blank')"><i class="fa-brands fa-vk"></i><span>robsag</span></button>
-                    <button class="social-btn" onclick="window.open('https://www.instagram.com/robert.sagatelov', '_blank')"><i class="fa-brands fa-instagram"></i><span>robert.sagatelov</span></button>
+                    <button class="social-btn" onclick="window.open('https://t.me/rob325', '_blank')"><i
+                            class="fa-brands fa-telegram"></i><span>rob325</span></button>
+                    <button class="social-btn" onclick="window.open('https://vk.com/robsag', '_blank')"><i
+                            class="fa-brands fa-vk"></i><span>robsag</span></button>
+                    <button class="social-btn"
+                        onclick="window.open('https://www.instagram.com/robert.sagatelov', '_blank')"><i
+                            class="fa-brands fa-instagram"></i><span>robert.sagatelov</span></button>
                 </div>
             </div>
         </section>
@@ -42,15 +46,31 @@
         <section class="section" id="about">
             <div class="section-about">
                 <h2 class="section-title">Обо мне</h2>
-                <p class="section-text">Я увлекаюсь 3D-моделированием и 3D-печатью. На данный момент учусь на 2 курсе Гейм-дизайна. В свободное время изучаю разные технологии в мире IT.</p>
+                <p class="section-text">Я увлекаюсь 3D-моделированием и 3D-печатью. На данный момент учусь на 2 курсе
+                    Гейм-дизайна. В свободное время изучаю разные технологии в мире IT.</p>
+                <p class="section-text">Также люблю играть в видеоигры и смотреть различные SCi-Fi фильмы/сериалы в
+                    свободное время.</p>
             </div>
         </section>
 
         <section class="section" id="photo">
-            <div class="section-photo">
-                <h2 class="section-title">Фото</h2>
-                <p class="section-text">Здесь вы найдете мои фотографии.</p>
-            </div>
+            <section class="section-photo-container">
+                <div class="section-photo">
+                    <h2 class="section-title">Мои работы</h2>
+                    <div class="section-gallery">
+                        <img class="section-image" src="/src/img/mori_front.jpg" alt="mori-front" />
+                        <img class="section-image" src="/src/img/mori_side.jpg" alt="mori-side" />
+                    </div>
+                </div>
+                <div class="section-photo">
+                    <h2 class="section-title">Личные фото</h2>
+                    <div class="section-gallery">
+                        <img class="section-image" src="/src/img/1.jpg" alt="mori-front" />
+                        <img class="section-image" src="/src/img/2.jpg" alt="mori-side" />
+                        <img class="section-image" src="/src/img/3.jpg" alt="mori-side" />
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
 
